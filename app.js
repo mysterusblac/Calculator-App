@@ -2,12 +2,12 @@
 
 const display = document.getElementById("display");
 
-function appendToDiplay(input){
+function appendToDisplay(input){
     display.value += input;
 }
 
 function clearDisplay(){
-    display.value = ""
+    display.value = "";
 }
 
 function calculate(){
